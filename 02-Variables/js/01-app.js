@@ -1,0 +1,35 @@
+// CREANDO VARIABLES EN JS
+// UTILIZAMOS VAR, LET, CONST
+// LAS VARIABLES NE JS SE PUEDEN INICIALIZAR SIN UN VALOR
+// JS ES UN LENGUAJE DINAMICO 
+// LAS VARIABLES NO PUEDEN INICIALIZAR CON NUMEROS
+//EXISTEN DIFERENTES FORMAS
+// SNAKE = MI_SERPIENTE
+// PASCAL CASE NombreProducto
+// 
+var producto = 'monitor de 24 pulgadas'
+// renombrando el valor de las variables
+producto='monitor de 15 pulgadas'
+var vacia=''
+var mix1='mi mexcla'
+// INICIALIZAR VARIAS VARIABLES
+var animal= 'perro'
+    fruta='pera'
+    nombre='juan'
+
+// CREANDO VARIABLES CON LET, ESTA PERMITE SER INICIALIZADA
+// ES IGUAL A VAR SOLO CAMBIA EL AMBITO O EL SCOP
+
+let productos= 'televisores'
+
+// CREANDO VARIABLES CON CONST, ES UNA COSNTANTE Y NO PERMITE DUPLICIDAD
+// NO PERMITE SER REASIGNADO
+//SIEMPRE DEBE INICIALIZAR CON UN VALOR
+
+const edad =10
+edad=15
+
+console.log(edad)
+     
+
+
