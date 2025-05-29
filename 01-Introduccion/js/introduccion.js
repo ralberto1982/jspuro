@@ -15,8 +15,10 @@
 
 // console.timeEnd()
 
-function hola(){
-    console.log('hola mundo')
+
+function hola(nombre, apellido) {
+    console.log(`tu nombre es ${nombre}`)
+
 }
 
-hola()
+hola('edwin', 'Loaiza')
